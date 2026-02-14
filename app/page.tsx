@@ -110,13 +110,13 @@ export default function Home() {
             </CardHeader>
             <CardContent className="space-y-3 text-sm text-zinc-700">
               <div className="rounded-lg border border-zinc-200/70 px-3 py-2">
-                GET /api/orpc/health
+                GET /api/orpc/outlets?pincode=560001
               </div>
               <div className="rounded-lg border border-zinc-200/70 px-3 py-2">
-                GET /api/orpc/products
+                GET /api/orpc/menu?outletId=outlet_id
               </div>
               <div className="rounded-lg border border-zinc-200/70 px-3 py-2">
-                POST /api/auth/sign-in/social
+                POST /api/orpc/admin/menu
               </div>
             </CardContent>
           </Card>
